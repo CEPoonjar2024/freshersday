@@ -156,7 +156,7 @@ body {
         animation: fadeIn 2s ease forwards; 
     }
     .footer-image img{
-        height:400px;
+        
         filter:drop-shadow(12px 4px 20px rgba(0, 0, 0, 0.8)) ;
     }
 }
