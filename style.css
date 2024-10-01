@@ -130,14 +130,14 @@ body {
         padding: 5px;
         flex-direction: column;
         overflow-x: hidden;
-        height: 1700px;
+        height: 1500px;
         
     }
     .logo-container{
         width: 100%;
     }
     body{
-        height: 330vh;
+        height: 300vh;
         overflow-x: hidden;
     }
     .footer{
