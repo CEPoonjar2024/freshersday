@@ -1,0 +1,162 @@
+
+
+@import url('https://smc.org.in/fonts/nupuram.css');
+
+html { font-family: 'Nupuram', sans-serif; }
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0d1b2a, #1b263b, #415a77);
+    height: 100vh;
+    display: flex;
+   overflow-x: hidden;
+    flex-direction: column;
+}
+
+
+.logo-container {
+    
+    width: 500px;
+    float: left ;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+
+.mainSection {
+    display: flex;
+    float: left ;
+    align-items: center;
+    padding: 60px;
+    overflow-x: hidden;
+}
+
+
+.dialogue {
+    max-width: 50%;
+    color: #fff;
+    font-family: 'Nupuram', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    opacity: 0; 
+    animation: fadeIn 2s ease forwards; 
+    
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.image {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.event-img {
+    width: 100%;
+    height: 600px;
+    filter:drop-shadow(12px 4px 20px rgba(255, 255, 255, 0.8)) ;
+    
+}
+@media (max-width: 720px) {
+    .dialogue {
+        font-size: 1.4rem; /* Smaller font size */
+        max-width: 80%;
+    }
+
+    .event-img {
+        height: 400px;
+    }
+
+    .mainSection {
+        padding: 10px;
+        flex-direction: column;
+        height: 1500px;
+    }
+    body{
+        height: 250vh;
+        overflow-x: hidden;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-diao {
+        margin-left: 120px;
+        max-width: 50%;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.8rem;
+        line-height: 1.5;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        opacity: 0; 
+        animation: fadeIn 2s ease forwards; 
+    }
+    .footer-image img{
+        
+        filter:drop-shadow(12px 4px 20px rgba(255, 4, 4, 0.8)) ;
+    }
+}
+
+/* Media query for screens 480px or smaller */
+@media (max-width: 480px) {
+   
+.dialogue{
+    margin-left: 20px;
+}
+    .event-img {
+    height: 400px;
+    float: left;
+    }
+
+    .logo {
+        width: 150px; /* Smaller logo */
+    }
+
+    
+
+    .mainSection {
+        padding: 5px;
+        flex-direction: column;
+        overflow-x: hidden;
+        height: 1500px;
+        
+    }
+    .logo-container{
+        width: 100%;
+    }
+    body{
+        height: 250vh;
+        overflow-x: hidden;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-diao {
+        margin-left: 100px;
+        max-width: 50%;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.8rem;
+        line-height: 1.5;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        opacity: 0; 
+        animation: fadeIn 2s ease forwards; 
+    }
+    .footer-image img{
+        
+        filter:drop-shadow(12px 4px 20px rgba(0, 0, 0, 0.8)) ;
+    }
+}
