@@ -145,8 +145,8 @@ body {
         flex-direction: row;
     }
     .footer-diao {
-        margin-left: 100px;
-        max-width: 50%;
+        margin-left: 50px;
+        max-width: 100%;
         color: #fff;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 1.8rem;
@@ -156,7 +156,7 @@ body {
         animation: fadeIn 2s ease forwards; 
     }
     .footer-image img{
-        
+        height:400px;
         filter:drop-shadow(12px 4px 20px rgba(0, 0, 0, 0.8)) ;
     }
 }
